@@ -1,0 +1,11 @@
+kk:
+  javascripts:
+    aspect_dropdown:
+      mobile_row_checked: "<%= name %>  (жою)"
+      mobile_row_unchecked: "<%= name %>(үстеу)"
+      updating: "жаңала..."
+    timeago:
+      prefixAgo: ""
+      prefixFromNow: ""
+      suffixAgo: ""
+      suffixFromNow: ""

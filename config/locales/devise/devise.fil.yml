@@ -1,0 +1,10 @@
+fil:
+  devise:
+    mailer:
+      hello: "Kumusta %{email}!"
+    sessions:
+      new:
+        remember_me: "Tandaan Ako"
+  errors:
+    messages:
+      not_found: "Walang Mahanap"

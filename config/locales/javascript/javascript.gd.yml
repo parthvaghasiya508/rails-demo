@@ -1,0 +1,9 @@
+gd:
+  javascripts:
+    profile:
+      born: "Co-là-breith"
+    timeago:
+      prefixAgo: ""
+      prefixFromNow: ""
+      suffixAgo: ""
+      suffixFromNow: ""

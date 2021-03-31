@@ -1,0 +1,132 @@
+pt-PT:
+  javascripts:
+    and: "e"
+    aspect_dropdown:
+      add_to_aspect: "Adicionar contacto"
+      all_aspects: "Todos os grupos"
+      error: "Não foi possível começar a partilhar com <%= name %>. Você está a ignorá-los?"
+      error_remove: "Não pode remover <%= name %> nesse grupo :("
+      select_aspects: "Selecionar grupos"
+      started_sharing_with: "Começou a partilhar com <%= name %>!"
+      stopped_sharing_with: "Deixou de partilhar com <%= name %>."
+      toggle:
+        one: "Em <%=count %> grupo"
+        other: "Em <%=count %> grupos"
+        zero: "Selecione os grupos"
+    aspect_navigation:
+      add_an_aspect: "+ Adicionar um grupo"
+      deselect_all: "Desmarcar todos"
+      no_aspects: "Nenhuns aspectos selecionados"
+      select_all: "Selecionar todos"
+    comma: ","
+    comments:
+      hide: "ocultar comentários"
+      show: "mostrar todos os comentários"
+    confirm_dialog: "Tem a certeza?"
+    delete: "Eliminar"
+    edit: "Editar"
+    failed_to_post_message: "Falhou ao publicar a mensagem!"
+    getting_started:
+      alright_ill_wait: "Tudo bem, eu esperarei."
+      hey: "Ei, <%= name %>!"
+      no_tags: "Ei, não está a seguir nenhuma etiqueta! Continuar mesmo assim?"
+      preparing_your_stream: "A preparar o seu fluxo personalizado..."
+    header:
+      admin: "Administrador"
+      close: "fechar"
+      contacts: "Contactos "
+      home: "Inicio "
+      log_out: "Sair"
+      mark_all_as_read: "Marcar tudo como lido"
+      notifications: "Notificações"
+      profile: "Perfil"
+      recent_notifications: "Últimas Notificações"
+      search: "Procurar"
+      settings: "Definições"
+      view_all: "Ver tudo"
+    ignore: "Ignorar"
+    ignore_user: "Ignorar este utilizador?"
+    my_activity: "Minha atividade"
+    my_aspects: "Os meus grupos"
+    my_stream: "Fluxo"
+    people:
+      not_found: "e ninguém foi encontrado..."
+    photo_uploader:
+      completed: "<%= file %> completado"
+      empty: "O {file} não tem dados, por favor, selecione novamente os ficheiros, sem este."
+      invalid_ext: "O {file} tem uma extensão inválida. Só são permitidas as extensões {extensions}."
+      looking_good: "OMD, tu estás fantástico(a)!"
+      size_error: "O {file} é muito grande, o tamanho máximo do ficheiro é {sizeLimit}."
+    publisher:
+      limited: "Limitado - a sua publicação só será vista pelas pessoas com as quais está a partilhar"
+      near_from: "Publicado em: <%= location %>"
+      public: "Público - A sua publicação será visível para todos e encontrada por motores de busca"
+    reshares:
+      post: "Repartilhar a publicação de <%= name %>?"
+      successful: "A publicação foi repartilhada com sucesso!"
+    show_more: "mostrar mais"
+    stream:
+      comment: "Comentar"
+      disable_post_notifications: "Desativar notificações para esta publicação"
+      enable_post_notifications: "Ativar notificações para esta publicação"
+      follow: "Seguir"
+      followed_tag:
+        add_a_tag: "Adicionar uma etiqueta"
+        follow: "Seguir"
+        title: "#Etiquetas Seguidas"
+      hide: "Ocultar"
+      hide_nsfw_posts: "Ocultar publicações #nsfw"
+      like: "Gostar"
+      likes:
+        one: "<%= count %> gosto"
+        other: "<%= count %> gostos"
+        zero: "<%= count %> gosto"
+      limited: "Limitado"
+      more_comments:
+        one: "Mostrar mais <%= count %> comentário"
+        other: "Mostrar mais <%= count %> comentários"
+        zero: "Mostrar mais <%= count %> comentários"
+      original_post_deleted: "Publicação original eliminada pelo autor."
+      public: "Público"
+      reshare: "Voltar a Partilhar"
+      reshares:
+        one: "<%= count %> repartilha"
+        other: "<%= count %> repartilhas"
+        zero: "<%= count %> repartilhas"
+      show_nsfw_post: "Mostrar publicação"
+      show_nsfw_posts: "Mostrar todas"
+      tags:
+        follow: "Seguir #<%= tag %>"
+        follow_error: "Não foi possível seguir #<%= tag %> :("
+        following: "A Seguir #<%= tag %>"
+        stop_following: "Parar de seguir #<%= tag %>"
+        stop_following_confirm: "Deixar de seguir #<%= tag %>"
+        stop_following_error: "Não foi possível deixar de seguir #<%= tag %> :("
+      unfollow: "Anular Seguir"
+      unlike: "Não gostar"
+      via: "via <%= provider %>"
+    tags:
+      wasnt_that_interesting: "OK, suponho que #<%= tagName %> não era assim tão interessante..."
+    timeago:
+      day: "um dia"
+      days:
+        other: "%d dias"
+      hour: "cerca de uma hora"
+      hours:
+        other: "cerca de %d horas"
+      minute: "cerca de um minuto"
+      minutes:
+        other: "%d minutos"
+      month: "cerca de um mês"
+      months:
+        other: "%d meses"
+      prefixAgo: ""
+      prefixFromNow: ""
+      seconds: "menos de um minuto"
+      suffixAgo: ""
+      suffixFromNow: "a partir de agora"
+      year: "cerca de um ano"
+      years:
+        other: "%d anos"
+    viewer:
+      reshared: "Repartilhado"

@@ -1,0 +1,111 @@
+be:
+  _applications: "праграмы"
+  _contacts: "кантакты"
+  _services: "паслугі"
+  account: "Аккаунт"
+  activerecord:
+    errors:
+      models:
+        contact:
+          attributes:
+            person_id:
+              taken: "павінна быць унікальным у кантактах гэтага карыстальніка."
+        person:
+          attributes:
+            diaspora_handle:
+              taken: "ужо існуе."
+        request:
+          attributes:
+            from_id:
+              taken: "было аднойчы ўжо запатрабавана."
+        reshare:
+          attributes:
+            root_guid:
+              taken: "Добра, але гэта ты ўжо перапосціў!"
+        user:
+          attributes:
+            email:
+              taken: "ужо існуе."
+            person:
+              invalid: "Памылковае значэнне"
+            username:
+              invalid: "Памылка. Дазваляюцца літары, лічбы і падкрэсліванні."
+              taken: "ужо існуе."
+  all_aspects: "усе катыгорыі"
+  are_you_sure: "сапраўды?"
+  are_you_sure_delete_account: "Вы сапраўды хочаце выдаліць Ваш акаўнт? Гэта не магчыма будзе адмяніць!"
+  aspects:
+    add_to_aspect:
+      failure: "Памылка пры спробе дадаць кантакты да аспекта."
+      success: "Кантакты паспяхова дададзены ў аспект."
+    aspect_listings:
+      add_an_aspect: "+ дадаць катыгорыю"
+    destroy:
+      failure: "%{name} не пустая і не можа быць выдалена."
+      success: "%{name} паспяхова выдалена"
+    edit:
+      aspect_list_is_not_visible: "спіс катыгорый не бачны для ўсіх"
+      aspect_list_is_visible: "спіс катыгорый бачны для ўсіх"
+      confirm_remove_aspect: "ты сапраўды жадаешь выдаліць гэтую катыгорыю?"
+      rename: "перайменаваць"
+      update: "абнавіць"
+      updating: "абнаўляю ..."
+    index:
+      donate: "падзяка"
+      help:
+        do_you: "Гэта тычыцца:"
+        here_to_help: "Супольнасці Diaspora тут!"
+        need_help: "дапамога патрэбна?"
+        tag_bug: "памылка"
+        tag_question: "пытанне"
+      new_here:
+        follow: "Сачы за %{link} і вітай новых карыстальнікаў diaspora*!"
+        learn_more: "паказаць больш"
+        title: "Прывітанне, Новы Ўдзельнік!(чалавек)"
+      welcome_to_diaspora: "Вітаем ў Diaspora, %{name}!"
+    no_contacts_message:
+      community_spotlight: "супольны прагляд"
+      or_spotlight: "ты можаш таксама падзяліцца %{link}"
+      try_adding_some_more_contacts: "ты можаш знайсці ці дадаць новыя катракты"
+      you_should_add_some_more_contacts: "спачатку дадай пару кантактаў"
+    seed:
+      acquaintances: "знаёмыя"
+      family: "сям'я"
+      friends: "сябры"
+      work: "праца"
+    update:
+      failure: "не магчыма захаваць катыгорыю %{name}, занадта дліная назва."
+      success: "катыгорыя %{name} была паспяхова выдалена"
+  cancel: "адмяніць"
+  contacts:
+    index:
+      all_contacts: "усе кантакты"
+  conversations:
+    new:
+      send: "даслаць"
+      sending: "адсылаю ..."
+  delete: "выдаліць"
+  email: "Email"
+  error_messages:
+    helper:
+      correct_the_following_errors_and_try_again: "спраўляй памылкі і паспрабуй зноў."
+  fill_me_out: "запоўні мяне"
+  find_people: "Пошук людзей ці #тэгаў"
+  invitations:
+    new:
+      invite_someone_to_join: "запрасі каго-небудзь да Diaspora!"
+      language: "мова"
+  layouts:
+    header:
+      settings: "налады"
+  limited: "абмежавана"
+  more: "больш"
+  no_results: "нічога не знайшлось"
+  nsfw: "не дзеля ўсіх вачэй"
+  ok: "ok"
+  privacy: "Прыватнасць"
+  profile: "Прафіль"
+  public: "адкрыта"
+  search: "Пошук"
+  settings: "Налады"
+  username: "Імя карыстальніка"

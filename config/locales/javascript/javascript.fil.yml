@@ -1,0 +1,15 @@
+fil:
+  javascripts:
+    confirm_dialog: "Sigurado ka ba?"
+    header:
+      view_all: "Tingnan lahat"
+    stream:
+      hide: "Itago"
+      public: "Publiko"
+    timeago:
+      minutes:
+        other: "%d minuto"
+      prefixAgo: ""
+      prefixFromNow: ""
+      suffixAgo: ""
+      suffixFromNow: ""

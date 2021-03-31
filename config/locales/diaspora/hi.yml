@@ -1,0 +1,16 @@
+hi:
+  _services: "सेवाएं"
+  account: "खाता"
+  are_you_sure: "क्या आपको यकीन है?"
+  aspects:
+    index:
+      help:
+        tag_question: "प्रश्न"
+  cancel: "रद्द करें"
+  delete: "मिटाओ"
+  email: "ईमेल"
+  ok: "ठीक"
+  privacy: "गोपनीयता"
+  profile: "प्रोफ़ाइल"
+  settings: "विन्यास"
+  username: "उपयोगकर्ता नाम"

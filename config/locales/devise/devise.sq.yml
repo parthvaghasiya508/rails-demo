@@ -1,0 +1,88 @@
+sq:
+  errors:
+    messages:
+      not_found: "s’u gjet"
+      already_confirmed: "është ripohuar tashmë"
+      not_locked: "s’qe kyçur"
+
+  devise:
+    failure:
+      unauthenticated: "Duhet të bëni hyrjen ose të regjistroheni, përpara se të vazhdohet."
+      unconfirmed: "Duhet të ripohoni llogarinë tuaj, përpara se të vazhdohet."
+      locked: "Llogaria juaj është e kyçur."
+      not_found_in_database: 'Email ose fjalëkalim i pavlefshëm.'
+      invalid: 'Emër përdoruesi ose fjalëkalim i pavlefshëm.'
+      invalid_token: 'Token mirëfilltësimi i pavlefshëm.'
+      timeout: "Sesionit tuaj i mbaroi koha, ju lutemi, hyni sërish që të vazhdoni."
+      inactive: "Llogaria juaj ende s’është aktive."
+    sessions:
+      new:
+        login: "Hyni"
+        username: "Emër përdoruesi"
+        password: "Fjalëkalim"
+        sign_in: "Hyni"
+        remember_me: "Mbamë mend"
+        modern_browsers: 'mbulon vetëm shfletuesit modernë.'
+      signed_in: 'Hytë me sukses.'
+      signed_out: 'Dolët me sukses.'
+    passwords:
+      send_instructions: "Brenda pak minutash do t’ju vijë një email me udhëzime se si të ricaktoni fjalëkalimin tuaj."
+      updated: "Fjalëkalimi juaj u ndryshua me sukses. Tani jeni i futur."
+      edit:
+        change_password: "Ndryshoje fjalëkalimin tim"
+        new_password: "Fjalëkalim i ri"
+        confirm_password: "Ripohoni fjalëkalimin"
+      new:
+        forgot_password: "Harruat fjalëkalimin?"
+        no_account: 'S’ka llogari me këtë email'
+        reset_password: "Ricaktoni fjalëkalimin"
+        email: "Adresë email"
+        send_password_instructions: "Dërgomëni udhëzime ricaktimi fjalëkalimi"
+    confirmations:
+      send_instructions: "Brenda pak minutash do t’ju vijë një email me udhëzime se si të ripohoni llogarinë tuaj."
+      confirmed: "Llogaria juaj u ripohua me sukses. Tani jeni i futur."
+      new:
+        resend_confirmation: "Ridërgo udhëzime ripohimi" 
+    registrations:
+      signed_up: "U regjistruat me sukses. Po qe se mundësia përkatëse është e aktivizuar, ju është dërguar një mesazh ripohimi te email-i juaj."
+      updated: "E përditësuat me sukses llogarinë tuaj."
+      destroyed: "Shëndet! Llogaria juaj u anulua me sukses. Shpresojmë t’ju shohim prapë së shpejti."
+    unlocks:
+      send_instructions: "Brenda pak minutash do t’ju vijë një email me udhëzime se si të zhbllokoni llogarinë."
+      unlocked: 'Llogaria juaj u zhbllokua me sukses. Tani jeni i futur.'
+      new:
+        resend_unlock: "Ridërgoji udhëzimet për zhbllokim"
+    invitations:
+      send_instructions: "Ftesa juaj u dërgua."
+      invitation_token_invalid: "Ndjesën tonë! Ky mekanizëm ose këto të dhëna ftese s’janë të vlefshme."
+      updated: "Fjalëkalimi juaj u caktua me sukses. Tani jeni i futur."
+    mailer:
+      welcome: "Mirë se vini %{email}!"
+      hello: "Tungjatjeta %{email}!"
+      confirmation_instructions:
+        subject: "Udhëzime ripohimi"
+        you_can_confirm: "Llogarinë tuaj mund të ripohoni përmes lidhjes më poshtë:"
+        confirm: "Ripohoje llogarinë time"
+      reset_password_instructions:
+        subject: "Udhëzime ricaktimi fjalëkalimi"
+        someone_requested: "Dikush kërkoi një lidhje për ndryshimin e fjalëkalimit tuaj, dhe këtë mund ta bëni përmes lidhjes më poshtë."
+        change: "Ndryshoje fjalëkalimin tim"
+        wont_change: "Fjalëkalimi juaj nuk do të ndryshojë pa përdorur lidhjen më sipër për të krijuar një të ri."
+        ignore: "Nëse këtë s’e kërkuat ju, ju lutemi, shpërfilleni këtë email."
+      unlock_instructions:
+        subject: "Udhëzime zhbllokimi"
+        account_locked: "Llogaria juaj është bllokuar për shkak të një sasie të tepruar përpjekjesh për të hyrë në të."
+        click_to_unlock: "Që të zhbllokoni llogarinë tuaj, klikoni lidhjen më poshtë:"
+        unlock: "Zhbllokoje llogarinë time"
+      inviter:
+        has_invited_you: "%{name}"
+        have_invited_you: "%{names} ju ka ftuar të merrni pjesë në diaspora*"
+        accept_at: "te %{url}, mund ta pranoni përmes lidhjes më poshtë."
+    shared:
+      links:
+        sign_in: 'Hyni'
+        sign_up: 'Regjistrohuni'
+        sign_up_closed: 'Regjistrimet e lira janë të mbyllura hëpërhë.'
+        forgot_your_password: 'Harruat fjalëkalimin tuaj?'
+        receive_confirmation: "S’i morët udhëzimet për ripohimin?"
+        receive_unlock: "S’i morët udhëzimet për zhbllokimin?"

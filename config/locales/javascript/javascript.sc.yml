@@ -1,0 +1,9 @@
+sc:
+  javascripts:
+    header:
+      moderator: "Moderatore"
+    timeago:
+      prefixAgo: ""
+      prefixFromNow: ""
+      suffixAgo: ""
+      suffixFromNow: ""

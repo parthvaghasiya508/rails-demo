@@ -1,0 +1,11 @@
+af:
+  _help: "Hulp"
+  admins:
+    stats:
+      daily: "Daglike"
+      month: "Maand"
+      week: "Week"
+  aspects:
+    index:
+      help:
+        tutorial_link_text: "Tutoriale"

@@ -1,0 +1,16 @@
+- content_for :page_title do
+  = t(".edit_services")
+
+.settings-container.services_page.container-fluid
+  .row
+    .col-md-12
+      = render "shared/settings_nav"
+
+  .row
+    .col-md-12
+      = render "add_remove_services"
+
+  .row
+    .col-md-12
+      .services_explanation
+        = t(".services_explanation")

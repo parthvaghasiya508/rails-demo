@@ -1,0 +1,28 @@
+describe ContactsController, :type => :controller do
+  describe '#index' do
+    before do
+      AppConfig.chat.enabled = true
+      @aspect = bob.aspects.create(:name => "another aspect")
+      bob.share_with alice.person, @aspect
+      bob.share_with eve.person, @aspect
+      sign_in bob, scope: :user
+    end
+
+    it "generates the aspects_manage fixture", :fixture => true do
+      get :index, :a_id => @aspect.id
+      save_fixture(html_for("body"), "aspects_manage")
+    end
+
+    it "generates the aspects_manage_contacts_json fixture", fixture: true do
+      get :index, format: :json, a_id: @aspect.id, page: "1"
+      save_fixture(response.body, "aspects_manage_contacts_json")
+    end
+
+    it "generates the contacts_json fixture", :fixture => true do
+      json = bob.contacts.map { |c|
+               ContactPresenter.new(c, bob).full_hash_with_person
+             }.to_json
+      save_fixture(json, "contacts_json")
+    end
+  end
+end

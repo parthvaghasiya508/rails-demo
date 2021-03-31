@@ -1,0 +1,13 @@
+ga:
+  javascripts:
+    delete: "Scrios"
+    header:
+      contacts: "Teagmhálacha"
+      home: "Baile"
+      log_out: "Logáil amach"
+      search: "Cuardaigh"
+    timeago:
+      prefixAgo: ""
+      prefixFromNow: ""
+      suffixAgo: ""
+      suffixFromNow: ""

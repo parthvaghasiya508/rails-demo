@@ -1,0 +1,19 @@
+.clearfix.conversations-title
+  %h3= t(".inbox")
+  = link_to t(".new_conversation"), new_conversation_path, class: "btn btn-default pull-right"
+
+- flash.each do |name, msg|
+  .alert{class: "alert-#{flash_class name}", role: "alert"}
+    = msg
+
+.conversation-inbox#conversation-inbox
+  .stream.conversations
+    - if @visibilities.count > 0
+      = render partial: "conversations/conversation", collection: @visibilities, as: :visibility
+    - else
+      .no-messages
+        %i
+          = t(".no_messages")
+
+  = will_paginate @visibilities, previous_label: "&laquo;", next_label: "&raquo;", inner_window: 1, outer_window: 0,
+      renderer: WillPaginate::ActionView::BootstrapLinkRenderer

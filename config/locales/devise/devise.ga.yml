@@ -1,0 +1,9 @@
+ga:
+  devise:
+    mailer:
+      hello: "Haileo %{email}!"
+      welcome: "Fáilte %{email}!"
+    sessions:
+      new:
+        login: "Logáil isteach"
+        password: "Pasfhocal"

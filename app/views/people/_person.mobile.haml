@@ -1,0 +1,10 @@
+.stream-element{id: person.id}
+  .content
+    .media
+      .media-left
+        = person_image_link(person, size: :thumb_small, class: "media-object")
+      .media-body
+        %span.from
+          = person_link(person, size: :thumb_small)
+        .info
+          = link_to person.diaspora_handle, local_or_remote_person_path(person), class: "black"

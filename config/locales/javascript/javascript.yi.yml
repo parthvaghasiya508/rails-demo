@@ -1,0 +1,8 @@
+yi:
+  javascripts:
+    timeago:
+      day: "אַ טעג"
+      prefixAgo: ""
+      prefixFromNow: ""
+      suffixAgo: "צוריק"
+      suffixFromNow: ""
